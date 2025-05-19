@@ -1,0 +1,60 @@
+.nav-bar{
+    display: flex;
+    
+    padding: 0 1rem;
+    justify-content: space-around;
+    font-size: 1.025rem;
+}
+.nav-bar h1{
+    color: #034144;
+}
+
+.nav-bar button{
+    margin: 1rem 1rem;
+    background-color: #FFA500;
+    font-size: 1rem;
+    border-radius: 10px;
+    
+    
+}
+.first-screen{
+    text-align: center;
+    padding: 10rem 30px;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+  
+  .first-screen h1 {
+    font-size: 2.5rem; 
+  }
+  .first-screen h1 span{
+    background-color: #009688;
+    border-radius: 1rem;
+    color:white;
+    padding: 10px;
+    display: inline-block;
+  }
+  .first-screen h2 {
+    font-size: 1.5rem; 
+    max-width: 80%; 
+    margin: 0 auto; 
+  }
+  
+  
+  @media (max-width: 800px) {
+    .nav-bar button{
+        padding: 0;
+        width: 20vw;
+
+        font-style: bold;
+    }
+    .first-screen h1 {
+      font-size: 2rem; 
+    }
+  
+    .first-screen h2 {
+      font-size: 1.2rem; 
+      max-width: 90%;
+    }
+  }
